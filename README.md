@@ -177,7 +177,10 @@
 - **High-Resolution Vegetation Products (Copernicus HR-VPP)** — https://land.copernicus.eu/en/products/vegetation  
 - **Liu et al. 2023 — Global Canopy Height / Biomass** — https://zenodo.org/records/8154445 (DOI: 10.1126/sciadv.adh4097)  
 - **MODIS Primary Productivity (MOD17A3HGF)** — https://lpdaac.usgs.gov/products/mod17a3hgfv061/ (DOI: 10.5067/MODIS/MOD17A3HGF.061)  
-- **MODIS Vegetation Index (MOD13Q1)** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061 (DOI: 10.5067/MODIS/MOD13Q1.061)  
+- **MODIS Vegetation Index (MOD13Q1)** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061 (DOI: 10.5067/MODIS/MOD13Q1.061)
+
+## 4.6 Images
+- **TreeOfLife-10M** — https://huggingface.co/datasets/imageomics/TreeOfLife-10M  
 
 ---
 
