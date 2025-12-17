@@ -180,7 +180,8 @@
 - **MODIS Vegetation Index (MOD13Q1)** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061 (DOI: 10.5067/MODIS/MOD13Q1.061)
 
 ## 4.6 Images
-- **TreeOfLife-10M** — https://huggingface.co/datasets/imageomics/TreeOfLife-10M  
+- **TreeOfLife-10M** — https://huggingface.co/datasets/imageomics/TreeOfLife-10M
+- **Imageomics** — https://huggingface.co/imageomics 
 
 ---
 
