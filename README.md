@@ -4,13 +4,14 @@
 ---
 
 # Table of Contents
+
 - [1. General Dataset Portals](#1-general-dataset-portals)
 - [2. Government Open Data](#2-government-open-data)
 - [3. Society & Development](#3-society--development)
 - [4. Ecology & Biodiversity](#4-ecology--biodiversity)
 - [5. Land Cover & Geography](#5-land-cover--geography)
 - [6. Oceans](#6-oceans)
-- [7. Social Networks](#7-social-networks)
+- [7. Social Networks & Web Data](#7-social-networks--web-data)
 - [8. Linguistics](#8-linguistics)
 - [9. Scientific Publications](#9-scientific-publications)
 - [10. APIs & Tools](#10-apis--tools)
@@ -25,16 +26,26 @@
 - **CareerFoundry Dataset Overview** — https://careerfoundry.com/en/blog/data-analytics/where-to-find-free-datasets/  
 - **Culturomics (Google Ngrams etc.)** — http://www.culturomics.org/  
 - **data.world** — https://data.world/search  
+- **Dryad** — https://datadryad.org/  
 - **Ecological Data Wiki** — https://ecologicaldata.org/home  
+- **Environmental Data Initiative (EDI)** — https://edirepository.org/  
+- **Figshare** — https://figshare.com/  
 - **FiveThirtyEight Data** — https://data.fivethirtyeight.com/  
 - **Google Dataset Search** — https://toolbox.google.com/datasetsearch  
 - **Google Dataset Search Blog** — https://www.blog.google/products/search/making-it-easier-discover-datasets/  
+- **Google Earth Engine Data Catalog** — https://developers.google.com/earth-engine/datasets  
+- **Hugging Face Datasets** — https://huggingface.co/datasets  
 - **Kaggle** — https://www.kaggle.com/  
+- **Microsoft Planetary Computer** — https://planetarycomputer.microsoft.com/  
+- **NASA Earthdata Search** — https://search.earthdata.nasa.gov/  
 - **Nature News — Virtual Satellite (Nature Trace)** — https://www.nature.com/articles/d41586-025-02412-1  
 - **Nature Trace (Earth Engine datasets)** — https://developers.google.com/earth-engine/datasets/publisher/nature-trace  
+- **PANGAEA — Data Publisher for Earth & Environmental Science** — https://www.pangaea.de/  
 - **Pew Research Internet Datasets** — https://www.pewresearch.org/internet/datasets/  
 - **R for Ecology — Top Five(ish) Sources of Ecological Data** — https://www.rforecology.com/post/top-five-ish-sources-of-ecological-data/  
+- **Recherche Data Gouv (France)** — https://recherche.data.gouv.fr/  
 - **Your GIS / Dataset Spreadsheet** — https://docs.google.com/spreadsheets/d/1OW6X94Ha_-_v5fe8XJlQp7ncubgF1CG6LgAIUk1kFcY/edit?gid=1637976342#gid=1637976342  
+- **Zenodo** — https://zenodo.org/  
 
 ---
 
@@ -42,14 +53,18 @@
 
 - **AidData** — https://www.aiddata.org/datasets  
 - **Australia (data.gov.au)** — http://data.gov.au/  
+- **Canada (open.canada.ca)** — https://open.canada.ca/en/open-data  
 - **CDRC (UK Consumer Data Research Centre)** — https://data.cdrc.ac.uk/  
+- **European Union Open Data Portal (data.europa.eu)** — https://data.europa.eu/  
 - **Eurostat** — http://ec.europa.eu/eurostat/web/main/home  
 - **FAO Land & Water** — http://www.fao.org/land-water/databases-and-software/en/  
 - **France (data.gouv.fr)** — http://www.data.gouv.fr/  
 - **Germany (govdata.de)** — https://www.govdata.de/  
 - **Ghana (data.gov.gh)** — http://data.gov.gh/  
 - **Hong Kong PSI** — http://www.gov.hk/en/theme/psi/datasets/  
+- **INSEE — French National Institute of Statistics** — https://www.insee.fr/  
 - **Japan (data.go.jp)** — http://www.data.go.jp/  
+- **OECD Data Explorer** — https://data-explorer.oecd.org/  
 - **Open Data Portals Directory** — http://www.data.gov/opendatasites  
 - **United Kingdom (data.gov.uk)** — https://data.gov.uk/  
 - **United Nations Data** — http://data.un.org/  
@@ -63,16 +78,20 @@
 
 - **ASDFree — US Survey Data Tutorials** — http://www.asdfree.com/  
 - **Biodiversity Indicators Partnership (BIP)** — https://www.bipindicators.net/  
+- **EM-DAT — International Disaster Database** — https://www.emdat.be/  
 - **Gapminder (Development & Health)** — http://www.gapminder.org/  
 - **Happy Planet Index** — http://happyplanetindex.org/  
 - **Human Well-being (ScienceDirect article & data)** — https://www.sciencedirect.com/science/article/pii/S0921800920322084  
 - **Indigenous Populations Dataset (bioRxiv)** — https://www.biorxiv.org/content/10.1101/2019.12.11.873695v3.full.pdf  
 - **Inequality Dataset (Ellis)** — http://ellisp.github.io/blog/2017/07/22/inter-country-inequality  
 - **Our World in Data (history, health, development, etc.)** — https://ourworldindata.org/  
+- **UNDP Human Development Reports (HDI)** — https://hdr.undp.org/data-center  
+- **V-Dem — Varieties of Democracy** — https://www.v-dem.net/data/the-v-dem-dataset/  
 - **World Happiness Report (Kaggle)** — https://www.kaggle.com/datasets/mathurinache/world-happiness-report-20152021  
 - **Worldometers (population, demographics, etc.)** — https://www.worldometers.info/  
 - **World Bank — World Development Indicators (Kaggle)** — https://www.kaggle.com/worldbank/world-development-indicators  
 - **World Bank Data360R (R package interface)** — https://cran.r-project.org/web/packages/data360r/index.html  
+- **World Inequality Database (WID)** — https://wid.world/  
 
 ## 3.2 Population & Gridded Population
 
@@ -88,38 +107,83 @@
 - **Population Modeling in R (tutorial with data)** — https://rviews.rstudio.com/2017/10/09/population-modeling-in-r/  
 - **WorldPop — Datasets by Category** — https://hub.worldpop.org/project/categories?id=18 (DOI: 10.1080/20964471.2019.1625151)  
 - **WorldPop Portal** — https://www.worldpop.org/  
+- **World Settlement Footprint (WSF)** — https://download.geoservice.dlr.de/WSF2019/  
 - **Global Human Settlement Population (GHS-POP)** — https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_POP_GLOBE_R2023A/ (DOI: 10.2905/2FF68A52-5B5B-4A22-8F40-C41DA8332CFE)  
+- **Global Human Settlement Layer — Built-up (GHS-BUILT)** — https://human-settlement.emergency.copernicus.eu/download.php  
 
 ## 3.3 Financial & Development Data
 
 - **Connaissance locale de l'appareil productif (CLAP)** — https://www.insee.fr/fr/statistiques/2021289  
+- **IMF Data Portal** — https://data.imf.org/  
 - **Infochimps Marketplace** — http://www.infochimps.com/marketplace  
 - **Kummu et al. 2018 — Global Wealth & Resource Use** — https://datadryad.org/stash/dataset/doi:10.5061/dryad.dk1j0 (DOI: 10.1038/sdata.2018.4)  
-- **quantmod (R financial data)** — http://www.quantmod.com/
-- **The Atlas of Economic Complexity** - https://atlas.hks.harvard.edu/
-- **Global Trade** - https://oec.world/en  
+- **quantmod (R financial data)** — http://www.quantmod.com/  
+- **The Atlas of Economic Complexity** — https://atlas.hks.harvard.edu/  
+- **Global Trade** — https://oec.world/en  
+- **UN Comtrade Database** — https://comtradeplus.un.org/  
 
 ---
 
 # 4. Ecology & Biodiversity
 
-## 4.1 Species Occurrence, Traits & Observations
+## 4.1 Species Occurrence & Observations
 
+- **Atlas of Living Australia (ALA)** — https://www.ala.org.au/  
 - **BIEN — Botanical Information & Ecology Network** — http://bien.nceas.ucsb.edu/  
+- **BOLD Systems — Barcode of Life Data System** — https://www.boldsystems.org/  
+- **Catalogue of Life** — https://www.catalogueoflife.org/  
 - **eBird** — https://ebird.org/home  
 - **GBIF — Global Biodiversity Information Facility** — http://www.gbif.org/  
 - **iDigBio** — https://www.idigbio.org/  
+- **iNaturalist** — https://www.inaturalist.org/  
+- **Macaulay Library (Cornell Lab of Ornithology)** — https://www.macaulaylibrary.org/  
+- **Map of Life (MOL)** — https://mol.org/  
+- **Movebank — Animal Tracking Data** — https://www.movebank.org/  
 - **OneZoom Tree of Life** — http://www.onezoom.org/life.html  
+- **Pl@ntNet** — https://plantnet.org/  
 - **PREDICTS** — http://www.predicts.org.uk/  
 - **PREDICTS Dataset (NHM)** — http://data.nhm.ac.uk/dataset/902f084d-ce3f-429f-a6a5-23162c73fdf7  
+- **Reef Life Survey (RLS)** — https://reeflifesurvey.com/  
 - **SCRFA — Reef Fish Spawning Aggregations** — https://www.scrfa.org/  
 - **SPLINK (Brazilian species data)** — http://splink.cria.org.br/  
+- **VertNet** — http://vertnet.org/  
 - **Virus–Host Dataset (mBio)** — https://journals.asm.org/doi/10.1128/mbio.02985-21  
+- **World Register of Marine Species (WoRMS)** — https://www.marinespecies.org/  
+- **xeno-canto — Wildlife Sound Archive** — https://xeno-canto.org/  
 
-## 4.2 Human Footprint & Land Use Pressure
+## 4.2 Traits & Phylogenies
+
+- **Amniote Life History Database** — https://esajournals.onlinelibrary.wiley.com/doi/10.1890/15-0846.1 (DOI: 10.1890/15-0846.1)  
+- **AmphiBIO — Amphibian Ecological Traits** — https://figshare.com/articles/dataset/Oliveira_et_al_AmphiBIO_v1/4644424 (DOI: 10.1038/sdata.2017.123)  
+- **AVONET — Morphological, Ecological & Geographical Data for All Birds** — https://figshare.com/articles/dataset/AVONET_morphological_ecological_and_geographical_data_for_all_birds_Tobias_et_al_2021_Ecology_Letters_/16586228 (DOI: 10.1111/ele.13898)  
+- **COMBINE — Coalesced Mammal Database of Intrinsic & Extrinsic Traits** — https://figshare.com/articles/dataset/COMBINE_a_Coalesced_Mammal_Database_of_Intrinsic_and_extrinsic_traits/13028255 (DOI: 10.1002/ecy.3344)  
+- **EltonTraits 1.0 — Foraging Attributes of the World's Birds & Mammals** — https://figshare.com/collections/EltonTraits_1_0_Species-level_foraging_attributes_of_the_world_s_birds_and_mammals/3306933 (DOI: 10.1890/13-1917.1)  
+- **Fish Tree of Life (Rabosky et al.)** — https://fishtreeoflife.org/ (DOI: 10.1038/s41586-018-0273-1)  
+- **FISHMORPH — Morphological Traits of Freshwater Fishes** — https://doi.org/10.6084/m9.figshare.14891412 (DOI: 10.1111/geb.13395)  
+- **GIFT — Global Inventory of Floras and Traits** — https://gift.uni-goettingen.de/home (DOI: 10.1111/jbi.13623)  
+- **Open Traits Network** — https://opentraits.org/  
+- **Open Tree of Life** — https://tree.opentreeoflife.org/  
+- **PHYLACINE — Phylogenetic Atlas of Mammal Macroecology** — https://github.com/MegaPast2Future/PHYLACINE_1.2 (DOI: 10.1002/ecy.2443)  
+- **TimeTree — The Timescale of Life** — https://www.timetree.org/  
+- **TRY Plant Trait Database** — https://www.try-db.org/ (DOI: 10.1111/gcb.14904)  
+- **VertLife — Vertebrate Phylogenies (birds, mammals, amphibians, squamates)** — https://vertlife.org/  
+
+## 4.3 Conservation Status & Extinction Risk
+
+- **BioTIME — Biodiversity Time Series Database** — https://biotime.st-andrews.ac.uk/ (DOI: 10.1111/geb.12729)  
+- **BirdLife Data Zone** — https://datazone.birdlife.org/  
+- **CITES Trade Database** — https://trade.cites.org/  
+- **EDGE of Existence (Evolutionarily Distinct & Globally Endangered)** — https://www.edgeofexistence.org/  
+- **IUCN Red List of Threatened Species** — https://www.iucnredlist.org/  
+- **IUCN Red List Spatial Data (Range Maps)** — https://www.iucnredlist.org/resources/spatial-data-download  
+- **Key Biodiversity Areas (KBA)** — https://www.keybiodiversityareas.org/  
+- **Living Planet Index & Database (LPD)** — https://www.livingplanetindex.org/  
+
+## 4.4 Human Footprint & Land Use Pressure
 
 - **Annual Terrestrial Footprint** — https://doi.org/10.6084/m9.figshare.16571064 (DOI: 10.1038/s41597-022-01284-8)  
 - **EarthEnv Texture Metrics** — https://www.earthenv.org/texture  
+- **Global Human Modification (gHM)** — https://figshare.com/articles/dataset/Global_Human_Modification/7283087 (DOI: 10.1111/gcb.14549)  
 - **Global Land Cover / Land Use Change 2000–2020 (GLAD app)** — https://glad.earthengine.app/view/glcluc-2000-2020  
 - **Global Vegetation Dataset (iDiv)** — https://idata.idiv.de/ddm/Data/ShowData/3474  
 - **GLOBIO4 Biodiversity Intactness** — https://www.globio.info/globio-data-downloads (DOI: 10.1111/gcb.14848)  
@@ -131,8 +195,9 @@
 - **Landscape Fragmentation – Effective Mesh Density (EEA)** — https://www.eea.europa.eu/en/datahub/datahubitem-view/9d0b51f9-047d-4af1-89eb-3756e46ffc53?activeAccordion=1083720  
 - **Terrestrial Human Footprint (HFP-100)** — https://datadryad.org/dataset/doi:10.5061/dryad.ttdz08m1f (DOI: 10.3389/frsen.2023.1130896)  
 
-## 4.3 Protected Areas, Ecosystems & Ecoregions
+## 4.5 Protected Areas, Ecosystems & Ecoregions
 
+- **Allen Coral Atlas** — https://allencoralatlas.org/  
 - **CaRHAB (French Habitat Mapping Programme)** — https://inpn.mnhn.fr/programme/carhab  
 - **CARTNAT — Conservation Value of Terrestrial Habitats in France** — https://uicn-ressources.fr/CartNat/Donnees%20cartographiques.zip (DOI: 10.1038/s43247-025-02160-0)  
 - **Ecoregions 2017 (TEOW update)** — https://storage.googleapis.com/teow2016/Ecoregions2017.zip (DOI: 10.1093/biosci/bix014)  
@@ -141,26 +206,36 @@
 - **Global Biome Cluster** — https://zenodo.org/records/5848610 (DOI: 10.5281/zenodo.5848610)  
 - **Global Ecological Zones (FAO GEZ)** — https://data.apps.fao.org/catalog/dataset/2fb209d0-fd34-4e5e-a3d8-a13c241eb61b  
 - **Global Ecosystem Typology (IUCN GET)** — https://zenodo.org/records/10081251 (DOI: 10.1038/s41586-022-05318-4)  
+- **Global Mangrove Watch** — https://www.globalmangrovewatch.org/ (DOI: 10.3390/rs10101669)  
 - **Global Maps of Habitat Types** — https://doi.org/10.5281/zenodo.4058819 (DOI: 10.1038/s41597-020-00599-8)  
 - **Global Environmental Stratification (GEnS)** — https://datashare.ed.ac.uk/handle/10283/3089 (DOI: 10.1111/geb.12022)  
 - **GRIIS — Global Register of Introduced and Invasive Species** — http://www.griis.org/  
 - **GRECO & SER — French Ecological Regions** — https://inventaire-forestier.ign.fr/spip/spip.php?article773  
 - **Marine Ecoregions of the World (MEOW)** — https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas (DOI: 10.1641/B570707)  
+- **Marine Protection Atlas (MPAtlas)** — https://mpatlas.org/  
 - **Natura 2000** — https://www.eea.europa.eu/en/datahub/datahubitem-view/6fc8ad2d-195d-40f4-bdec-576e7d1268e4  
 - **NOBANIS — European Invasive Alien Species** — https://www.nobanis.org/  
 - **Protected Planet API (includes WDPA)** — https://api.protectedplanet.net/documentation  
 - **Sea Around Us — Marine Protected Areas** — http://www.seaaroundus.org/data/#/mpa  
 - **Terrestrial Ecoregions of the World (TEOW)** — https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world (DOI: 10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2)  
+- **World Database on OECMs (WD-OECM)** — https://www.protectedplanet.net/en/thematic-areas/oecms  
 - **World Database on Protected Areas (WDPA)** — https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA  
 - **World Terrestrial Ecosystems** — https://www.sciencebase.gov/catalog/item/6296791ed34ec53d276bb293 (DOI: 10.1016/j.gecco.2019.e00860)  
 
-## 4.4 Climate & Bioclimate
+## 4.6 Climate & Bioclimate
 
 - **CHELSA Climate Data** — https://chelsa-climate.org/ (DOI: 10.1038/s41597-020-00587-y)  
+- **CHIRPS — Rainfall Estimates** — https://www.chc.ucsb.edu/data/chirps (DOI: 10.1038/sdata.2015.66)  
+- **CMIP6 — Coupled Model Intercomparison Project Phase 6** — https://wcrp-cmip.org/cmip6/  
+- **CRU TS — Climatic Research Unit Time-Series** — https://crudata.uea.ac.uk/cru/data/hrg/ (DOI: 10.1038/s41597-020-0453-3)  
 - **E-OBS Gridded Observations for Europe** — https://surfobs.climate.copernicus.eu/dataaccess/access_eobs.php (DOI: 10.1029/2017JD028200)  
 - **ERA5-Land Reanalysis** — https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means?tab=overview (DOI: 10.24381/cds.adbb2d47)  
 - **EuMedClim** — https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.15454/1.505380010373349E12 (DOI: 10.15454/1.505380010373349E12)  
 - **European Downscaled Daily Climate v4** — https://figshare.com/articles/online_resource/Description_and_Evaluation_of_Downscaled_Daily_Climate_Data_Version_4/22962671/1?file=40704293 (DOI: 10.1016/j.envsoft.2023.105627)  
+- **Köppen-Geiger Climate Classification Maps (1901–2099)** — https://www.gloh2o.org/koppen/ (DOI: 10.1038/s41597-023-02549-6)  
+- **MERRAclim — High-Resolution Remotely Sensed Bioclimatic Variables** — https://datadryad.org/dataset/doi:10.5061/dryad.s2v81 (DOI: 10.1038/sdata.2017.78)  
+- **NASA NEX-GDDP-CMIP6 (Downscaled Climate Projections)** — https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6  
+- **PaleoClim — Paleoclimate Surfaces** — http://www.paleoclim.org/ (DOI: 10.1038/sdata.2018.254)  
 - **PUG-BIOCLIMATE-1km-ERA5 (Regional)** — https://cds.climate.copernicus.eu/datasets/sis-biodiversity-era5-regional (DOI: 10.24381/cds.fe90a594)  
 - **PUG-BIOCLIMATE-ERA5 (Global)** — https://cds.climate.copernicus.eu/datasets/sis-biodiversity-era5-global (DOI: 10.24381/cds.bce175f0)  
 - **S2M SAFRAN Snow & Atmosphere Reanalysis** — https://www.aeris-data.fr/en/landing-page/?uuid=865730e8-edeb-4c6b-ae58-80f95166509b (DOI: 10.5194/essd-14-1707-2022)  
@@ -168,22 +243,32 @@
 - **TerraClimate** — https://www.climatologylab.org/terraclimate.html (DOI: 10.1038/sdata.2017.191)  
 - **WorldClim** — https://www.worldclim.org/ (DOI: 10.1002/joc.5086)  
 
-## 4.5 Vegetation, Biomass & Productivity
+## 4.7 Vegetation, Biomass & Productivity
 
 - **Biomass Carbon Density (Global 2010)** — https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-global-maps-c-density-2010-1763-1 (DOI: 10.1038/s41597-020-0444-4)  
 - **CCI BIOMASS** — https://climate.esa.int/en/projects/biomass/data/  
+- **ETH Global Canopy Height 2020 (Lang et al.)** — https://langnico.github.io/globalcanopyheight/ (DOI: 10.1038/s41559-023-02206-6)  
 - **Global Aridity Index & Potential Evapotranspiration (Global-AI_PET v3)** — https://figshare.com/articles/dataset/Global_Aridity_Index_and_Potential_Evapotranspiration_ET0_Climate_Database_v2/7504448 (DOI: 10.1038/s41597-022-01493-1)  
 - **Global Ecosystem Dynamics Investigation (GEDI) L3** — https://www.earthdata.nasa.gov/data/catalog/ornl-cloud-gedi-l3-landsurface-metrics-v2-1952-2 (DOI: 10.3334/ORNLDAAC/1952)  
+- **Global Forest Canopy Height (Potapov et al. 2021)** — https://glad.umd.edu/dataset/gedi (DOI: 10.1016/j.rse.2020.112165)  
 - **GLEAM v4 (Global Land Evaporation Amsterdam Model)** — https://zenodo.org/records/14724263 (DOI: 10.1038/s41597-025-04610-y)  
 - **GlobBiomass** — https://globbiomass.org/wp-content/uploads/GB_Maps/Globbiomass_global_dataset.html  
 - **High-Resolution Vegetation Products (Copernicus HR-VPP)** — https://land.copernicus.eu/en/products/vegetation  
 - **Liu et al. 2023 — Global Canopy Height / Biomass** — https://zenodo.org/records/8154445 (DOI: 10.1126/sciadv.adh4097)  
+- **MODIS Leaf Area Index / FPAR (MOD15A2H)** — https://lpdaac.usgs.gov/products/mod15a2hv061/ (DOI: 10.5067/MODIS/MOD15A2H.061)  
 - **MODIS Primary Productivity (MOD17A3HGF)** — https://lpdaac.usgs.gov/products/mod17a3hgfv061/ (DOI: 10.5067/MODIS/MOD17A3HGF.061)  
-- **MODIS Vegetation Index (MOD13Q1)** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061 (DOI: 10.5067/MODIS/MOD13Q1.061)
+- **MODIS Vegetation Index (MOD13Q1)** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-mod13q1-061 (DOI: 10.5067/MODIS/MOD13Q1.061)  
 
-## 4.6 Images
-- **TreeOfLife-10M** — https://huggingface.co/datasets/imageomics/TreeOfLife-10M
-- **Imageomics** — https://huggingface.co/imageomics 
+## 4.8 Images
+
+- **BIOSCAN-5M (insect images + DNA barcodes)** — https://huggingface.co/datasets/bioscan-ml/BIOSCAN-5M  
+- **Fish-AIR — Fish Aquatic Image Repository** — https://fishair.org/  
+- **Imageomics** — https://huggingface.co/imageomics  
+- **iNaturalist Competition Datasets (iNat)** — https://github.com/visipedia/inat_comp  
+- **LifeCLEF (PlantCLEF, GeoLifeCLEF, FungiCLEF & more)** — https://www.imageclef.org/LifeCLEF  
+- **LILA BC — Labeled Information Library for Biology & Conservation** — https://lila.science/  
+- **TreeOfLife-10M** — https://huggingface.co/datasets/imageomics/TreeOfLife-10M  
+- **Wildlife Insights — Camera Trap Data** — https://www.wildlifeinsights.org/  
 
 ---
 
@@ -198,6 +283,7 @@
 - **Corine Land Cover (CLC)** — https://land.copernicus.eu/en/products/corine-land-cover (DOI: 10.2909/960998c1-1870-4e82-8051-6485205ebbac)  
 - **CROPGRIDS** — https://figshare.com/articles/dataset/CROPGRIDS/22491997 (DOI: 10.1038/s41597-024-03247-7)  
 - **Dedieu & Pomeon 2024 — French Cropland Dataset** — https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/SHXHP4 (DOI: 10.57745/SHXHP4)  
+- **Dynamic World — Near Real-Time Land Cover** — https://dynamicworld.app/ (DOI: 10.1038/s41597-022-01307-4)  
 - **EUCROPMAP** — https://data.jrc.ec.europa.eu/dataset/15f86c84-eae1-4723-8e00-c1b35c8f56b9 (DOI: 10.1016/j.rse.2021.112708)  
 - **EU Field Boundaries** — https://zenodo.org/records/14229033 (DOI: 10.5281/zenodo.14229033)  
 - **ESA CCI Land Cover** — https://cds.climate.copernicus.eu/datasets/satellite-land-cover?tab=download (DOI: 10.24381/cds.006f2c9a)  
@@ -208,6 +294,7 @@
 - **Global Forest Change (Hansen et al.)** — https://storage.googleapis.com/earthenginepartners-hansen/GFC-2024-v1.12/download.html (DOI: 10.1126/science.1244693)  
 - **Global Forest Cover Change (GFCC30TC)** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-gfcc30tc-003 (DOI: 10.1080/17538947.2013.786146)  
 - **Global Distribution of Field Size** — https://pure.iiasa.ac.at/id/eprint/15526/ (DOI: 10.1111/gcb.14492)  
+- **Google Open Buildings** — https://sites.research.google/gr/open-buildings/  
 - **Grassland — Copernicus High Resolution Layer** — https://land.copernicus.eu/en/products/high-resolution-layer-grassland  
 - **HILDA+** — https://doi.org/10.1594/PANGAEA.921846 (DOI: 10.1038/s41467-021-22702-2)  
 - **Landsat Soil Spectral Indices (NDTI etc.)** — https://stac.ecodatacube.eu/ndti_glad.landsat.ard2.seasconv.m.yearly/collection.json?.language=en (DOI: 10.5281/zenodo.10851081)  
@@ -230,11 +317,18 @@
 - **EMEP MSC-W Atmospheric Chemistry Transport Model** — https://www.emep.int/mscw/mscw_moddata.html (DOI: 10.5194/acp-12-7825-2012)  
 - **ENACT — Global Electrification Database** — https://data.jrc.ec.europa.eu/dataset/be02937c-5a08-4732-a24a-03e0a48bdcda (DOI: 10.1038/s41467-020-18344-5)  
 - **European Soil Database (ESDB v2)** — https://esdac.jrc.ec.europa.eu/content/european-soil-database-v2-raster-library-1kmx1km (DOI: 10.1111/ejss.13315)  
+- **GADM — Database of Global Administrative Areas** — https://gadm.org/  
+- **GeoNames** — https://www.geonames.org/  
+- **Global Lakes and Wetlands Database (GLWD)** — https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database  
+- **Global Reservoir and Dam Database (GRanD)** — https://www.globaldamwatch.org/grand  
 - **Global Roads Inventory Project (GRIP)** — https://www.globio.info/download-grip-dataset (DOI: 10.1088/1748-9326/aabd42)  
 - **Global Streamflow Characteristics Dataset (GSCD)** — https://www.gloh2o.org/gscd/ (DOI: 10.1175/JHM-D-14-0155.1)  
 - **Global Surface Water (GSW)** — https://global-surface-water.appspot.com/download (DOI: 10.1038/nature20584)  
 - **Hydrography90m** — https://hydrography.org/hydrography90m/hydrography90m_layers (DOI: 10.5194/essd-14-4525-2022)  
+- **HydroSHEDS** — https://www.hydrosheds.org/ (DOI: 10.1029/2008EO100001)  
 - **Landscape Fragmentation – Effective Mesh Density (EEA)** — https://www.eea.europa.eu/en/datahub/datahubitem-view/9d0b51f9-047d-4af1-89eb-3756e46ffc53?activeAccordion=1083720  
+- **Natural Earth** — https://www.naturalearthdata.com/  
+- **OpenStreetMap** — https://www.openstreetmap.org/ (extracts: https://download.geofabrik.de/)  
 - **Quietness Suitability Index** — https://sdi.eea.europa.eu/catalogue/srv/eng/catalog.search#/metadata/e9151c34-da65-48b9-a2ca-b9b835480812  
 - **River Quality (France)** — https://qualite-riviere.lesagencesdeleau.fr/  
 - **Route500 (France Road Network)** — https://geoservices.ign.fr/route500  
@@ -249,6 +343,7 @@
 - **ASTER GDEM v3** — https://www.earthdata.nasa.gov/data/catalog/lpcloud-astgtm-003 (DOI: 10.5067/ASTER/ASTGTM.003)  
 - **Copernicus DEM GLO-30** — https://doi.org/10.5270/ESA-c5d3d65 (DOI: 10.5270/ESA-c5d3d65)  
 - **EarthEnv-DEM90** — https://www.earthenv.org/DEM (DOI: 10.1016/j.isprsjprs.2013.11.002)  
+- **EMODnet Bathymetry (Europe)** — https://emodnet.ec.europa.eu/en/bathymetry  
 - **ETOPO Global Relief Model** — https://www.ncei.noaa.gov/products/etopo-global-relief-model (DOI: 10.25921/fd45-gt74)  
 - **European Digital Terrain Models (EU DTM)** — https://zenodo.org/records/4724549 (DOI: 10.5281/zenodo.4724549)  
 - **FABDEM** — https://data.bris.ac.uk/data/dataset/s5hqmjcdj8yo2ibzi9b4ew3sn (DOI: 10.1088/1748-9326/ac4d4f)  
@@ -257,6 +352,8 @@
 - **GEBCO Gridded Bathymetry** — https://www.gebco.net/data-products/gridded-bathymetry-data (DOI: 10.5285/1c44ce99-0a0d-5f4f-e063-7086abc0ea0f/)  
 - **Earth Nullschool (visualisation)** — http://earth.nullschool.net  
 - **LIDAR HD (France)** — https://geoservices.ign.fr/lidarhd  
+- **MERIT DEM — Multi-Error-Removed Improved-Terrain DEM** — https://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_DEM/ (DOI: 10.1002/2017GL072874)  
+- **MERIT Hydro** — https://hydro.iis.u-tokyo.ac.jp/~yamadai/MERIT_Hydro/ (DOI: 10.1029/2019WR024873)  
 - **RGE ALTI (France)** — https://geoservices.ign.fr/rgealti  
 - **SRTM 30 m** — https://dwtkns.com/srtm30m/  
 - **Tandem-X (TDM30)** — https://geoservice.dlr.de/web/dataguide/tdm30/  
@@ -266,38 +363,57 @@
 - **Base de Données Géographique des Sols de France (BDGSF)** — https://entrepot.recherche.data.gouv.fr/dataverse/bdgsf (DOI: 10.15454/BPN57S)  
 - **European Soil Database (ESDB v2)** — https://esdac.jrc.ec.europa.eu/content/european-soil-database-v2-raster-library-1kmx1km (DOI: 10.1111/ejss.13315)  
 - **Global Rainfall Erosivity (GloREDa)** — https://esdac.jrc.ec.europa.eu/content/gloreda (DOI: 10.1016/j.dib.2023.109482)  
+- **Global Soil Organic Carbon Map (GSOCmap, FAO)** — https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/global-soil-organic-carbon-map-gsoc/  
 - **Harmonized World Soil Database (HWSD v2.0)** — https://gaez.fao.org/pages/hwsd (DOI: 10.1016/j.geoderma.2016.01.034)  
+- **OpenLandMap** — https://openlandmap.org/  
 - **SoilGrids** — https://www.isric.org/explore/soilgrids (DOI: 10.5194/soil-7-217-2021)  
 - **Topsoil Physical & Chemical Properties (LUCAS)** — https://esdac.jrc.ec.europa.eu/content/topsoil-physical-properties-europe-based-lucas-topsoil-data (DOI: 10.1016/j.geoderma.2019.113912)  
+- **World Soil Information Service (WoSIS)** — https://www.isric.org/explore/wosis (DOI: 10.5194/essd-12-299-2020)  
 
 ---
 
 # 6. Oceans
 
 - **AquaMaps (marine species distributions)** — https://www.aquamaps.org/  
+- **Argo — Global Ocean Profiling Floats** — https://argo.ucsd.edu/  
 - **Bio-ORACLE (marine environmental rasters)** — http://www.bio-oracle.org/code.php  
 - **Copernicus Marine Data (e.g., GLORYS12V1)** — https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description (DOI: 10.48670/moi-00021)  
+- **EMODnet — European Marine Observation & Data Network** — https://emodnet.ec.europa.eu/en  
 - **FishBase** — https://www.fishbase.se/  
 - **GEBCO Gridded Bathymetry** — https://www.gebco.net/data-products/gridded-bathymetry-data (DOI: 10.5285/1c44ce99-0a0d-5f4f-e063-7086abc0ea0f/)  
 - **GlobColour Ocean Colour Products** — https://hermes.acri.fr/index.php (DOI: 10.48670/moi-00281)  
 - **Global Fishing Watch** — https://globalfishingwatch.org/data/our-apis-portal/  
+- **Marine Regions — Gazetteer & Maritime Boundaries** — https://www.marineregions.org/  
+- **MARSPEC — Marine Spatial Ecology Layers** — http://www.marspec.org/ (DOI: 10.1890/12-1358.1)  
+- **NOAA Coral Reef Watch** — https://coralreefwatch.noaa.gov/  
 - **NOAA NODC/NCEI (oceanographic data)** — https://www.nodc.noaa.gov/access/allproducts.html  
 - **OBIS — Ocean Biodiversity Information System** — https://obis.org/  
+- **Ocean Health Index** — https://oceanhealthindex.org/  
 - **PNAS Global Islands Dataset** — https://www.pnas.org/content/110/38/15307  
+- **RAM Legacy Stock Assessment Database** — https://www.ramlegacy.org/  
+- **SeaLifeBase** — https://www.sealifebase.ca/  
+- **World Ocean Atlas (NOAA NCEI)** — https://www.ncei.noaa.gov/products/world-ocean-atlas  
 
 ---
 
-# 7. Social Networks
+# 7. Social Networks & Web Data
 
 - **Flickr Aesthetics Dataset** — http://www.di.unito.it/~schifane/dataset/beauty-icwsm15/#download  
 - **Flickr Geospatial Tutorial** — http://data-analytics.net/wp-content/uploads/2014/09/geospatial2.html  
 - **Flickr YFCC100M (Yahoo Webscope)** — https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67  
+- **GDELT Project (global events & news)** — https://www.gdeltproject.org/  
+- **Google Trends** — https://trends.google.com/  
+- **Wikimedia Data Dumps** — https://dumps.wikimedia.org/  
+- **Wikipedia Pageviews & Wikistats** — https://pageviews.wmcloud.org/  
 
 ---
 
 # 8. Linguistics
 
+- **Ethnologue — Languages of the World** — https://www.ethnologue.com/  
+- **Glottolog** — https://glottolog.org/  
 - **SIL Linguistic Computing Resources** — http://www-01.sil.org/linguistics/computing.html  
+- **WALS — World Atlas of Language Structures** — https://wals.info/  
 
 ---
 
@@ -307,14 +423,19 @@
 - **Bioxbio (Impact Factor history)** — https://www.bioxbio.com/  
 - **Clarivate Master Journal List** — https://mjl.clarivate.com/home  
 - **Connected Papers (paper similarity graph)** — https://www.connectedpapers.com/  
+- **CORE — Open Access Research Aggregator** — https://core.ac.uk/  
 - **Crossref REST API** — https://api.crossref.org/  
 - **Dimensions (free tier)** — https://www.dimensions.ai/products/free/  
+- **DOAJ — Directory of Open Access Journals** — https://doaj.org/  
 - **JANE — Journal/Author Name Estimator** — http://jane.biosemantics.org/  
 - **Journal Indicators (CWTS)** — https://www.journalindicators.com/methodology  
+- **Lens.org (scholarly & patent search)** — https://www.lens.org/  
 - **OpenAlex Docs** — https://docs.openalex.org/  
 - **OpenAlex API** — https://api.openalex.org  
 - **SCImago Journal Rank** — https://www.scimagojr.com/journalrank.php?wos=false  
 - **Scopus ASJC Codes (data file)** — https://github.com/dhimmel/scopus/blob/master/data/asjc-codes.tsv  
+- **Semantic Scholar API** — https://www.semanticscholar.org/product/api  
+- **Unpaywall (open-access location)** — https://unpaywall.org/  
 
 ---
 
@@ -323,19 +444,27 @@
 - **Global Fishing Watch API Python Client** — https://github.com/GlobalFishingWatch/gfw-api-python-client  
 - **Global Fishing Watch R Client (gfwr)** — https://globalfishingwatch.github.io/gfwr/  
 - **Global Fishing Watch APIs** — https://globalfishingwatch.org/data/our-apis-portal/  
+- **openalexR (OpenAlex client for R)** — https://docs.ropensci.org/openalexR/  
 - **Protected Planet API** — https://api.protectedplanet.net/documentation  
+- **rgbif (GBIF data access for R)** — https://docs.ropensci.org/rgbif/  
+- **robis (OBIS data access for R)** — https://docs.ropensci.org/robis/  
 - **rOpenSci Packages** — https://ropensci.org/packages/  
+- **sdmpredictors (environmental predictors for SDMs, R)** — https://github.com/lifewatch/sdmpredictors  
 - **Social APIs in the R Ecosystem**  
   - twitteR (Twitter API client)  
   - RFacebook (Facebook API client)  
   - RGoogleMaps (Google Maps)  
   - rfigshare (Figshare)  
   - rplos (PLOS)  
+- **spocc (species occurrence data for R)** — https://docs.ropensci.org/spocc/  
+- **taxize (taxonomic toolbelt for R)** — https://docs.ropensci.org/taxize/  
 
 ---
 
 # 11. Curated Lists
 
+- **Awesome Earth Observation Code** — https://github.com/acgeospatial/awesome-earthobservation-code  
+- **awesome-gee-community-catalog** — https://gee-community-catalog.org/  
 - **AWS Public Datasets (Registry of Open Data)** — https://registry.opendata.aws/  
 - **CMU StatLib Archive** — http://lib.stat.cmu.edu/  
 - **GEO — Gene Expression Omnibus** — https://www.ncbi.nlm.nih.gov/geo/  
@@ -345,5 +474,7 @@
 - **Mortar Data — Dataset Lists Curated by Data Scientists** — http://blog.mortardata.com/post/67652898761/6-dataset-lists-curated-by-data-scientists  
 - **Peter Skomoroch Delicious Dataset Bookmarks** — https://delicious.com/pskomoroch/dataset  
 - **SNAP — Stanford Large Network Dataset Collection** — https://snap.stanford.edu/data/  
+- **Source Cooperative (open geospatial data)** — https://source.coop/  
+- **STAC Index (SpatioTemporal Asset Catalogs)** — https://stacindex.org/  
 - **UCI Machine Learning Repository** — https://archive.ics.uci.edu/ml/index.php  
 - **arXiv Metadata & APIs** — https://arxiv.org/help/bulk_data  
