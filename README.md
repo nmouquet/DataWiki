@@ -95,7 +95,9 @@
 - **Connaissance locale de l'appareil productif (CLAP)** — https://www.insee.fr/fr/statistiques/2021289  
 - **Infochimps Marketplace** — http://www.infochimps.com/marketplace  
 - **Kummu et al. 2018 — Global Wealth & Resource Use** — https://datadryad.org/stash/dataset/doi:10.5061/dryad.dk1j0 (DOI: 10.1038/sdata.2018.4)  
-- **quantmod (R financial data)** — http://www.quantmod.com/  
+- **quantmod (R financial data)** — http://www.quantmod.com/
+- **The Atlas of Economic Complexity** - https://atlas.hks.harvard.edu/
+- **Global Trade** - https://oec.world/en  
 
 ---
 
