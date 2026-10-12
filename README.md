@@ -136,6 +136,7 @@
 - **GBIF — Global Biodiversity Information Facility** — http://www.gbif.org/  
 - **iDigBio** — https://www.idigbio.org/  
 - **iNaturalist** — https://www.inaturalist.org/  
+- **KoreAves — South Korea bird occurrence evidence atlas** — https://koreaves.com/ (interactive, source-linked regional reference; not a primary raw dataset, population estimate or range model).
 - **Macaulay Library (Cornell Lab of Ornithology)** — https://www.macaulaylibrary.org/  
 - **Map of Life (MOL)** — https://mol.org/  
 - **Movebank — Animal Tracking Data** — https://www.movebank.org/  
